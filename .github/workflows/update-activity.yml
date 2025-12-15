@@ -24,6 +24,8 @@ jobs:
         with:
           COMMIT_MSG: "⚡ Update README activity"
           MAX_LINES: 5
+          README_FILE: README.md
+
 
       # --- GENERATE SNAKE ---
       - name: Generate Snake Animation
