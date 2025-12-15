@@ -1,9 +1,9 @@
-name: Update Profile & Snake
+name: Daily Profile Update (Streak & Stats)
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch:      # Allows you to run it manually from the Actions tab
 
 jobs:
   build:
@@ -14,7 +14,36 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
+      # --- STEP 1: STREAK KEEPER ---
+      # Updates a file to ensure a green contribution square exists for today
+      - name: Daily Commit for Streak
+        env:
+          # Make sure you have this Secret set in your Repo Settings!
+          PAT: ${{ secrets.PERSONAL_TOKEN }} 
+        run: |
+          git config user.name "shafin027"
+          git config user.email "shafin027@users.noreply.github.com"
+          
+          # Update timestamp file
+          echo "Last contribution: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > .last-contribution
+          
+          git add .last-contribution
+          
+          # Check if there are changes before committing
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily contribution to keep streak [skip ci]"
+            # Use PAT to push so it counts as YOUR contribution
+            git remote set-url origin https://${PAT}@github.com/${{ github.repository }}
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+
+      # --- STEP 2: UPDATE RECENT ACTIVITY ---
+      # Updates the "Recent Activity" section in your README
       - name: Update Recent Activity
         uses: jamesgeorge007/github-activity-readme@master
         env:
@@ -23,6 +52,8 @@ jobs:
           COMMIT_MSG: '⚡ Update README with recent activity'
           MAX_LINES: 5
 
+      # --- STEP 3: GENERATE SNAKE ---
+      # Generates the snake animation (Now includes the commit from Step 1)
       - name: Generate Snake Game
         uses: Platane/snk@v3
         with:
@@ -34,6 +65,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # --- STEP 4: PUSH SNAKE ---
+      # Pushes the generated snake images to the 'output' branch
       - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
