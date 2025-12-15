@@ -41,6 +41,9 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 
 ## Recent Activity
 
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ---
 
 ### 🐍 My Contributions
