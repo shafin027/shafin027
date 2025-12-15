@@ -7,9 +7,9 @@
   <img src="https://komarev.com/ghpvc/?username=shafin027&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   
   <br/>
-
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  
+<a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com/?user=shafin027&theme=tokyonight" alt="GitHub Streak" />
   </a>
 </div>
 
