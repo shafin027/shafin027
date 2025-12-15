@@ -5,7 +5,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=shafin027&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shafin027&theme=tokyonight&cache_seconds=86400" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=shafin027&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 ---
