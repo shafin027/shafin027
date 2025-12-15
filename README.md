@@ -9,9 +9,8 @@
   <br/>
 
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
   </a>
-
 </div>
 
 ---
@@ -41,9 +40,6 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 ---
 
 ## Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ---
 
