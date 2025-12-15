@@ -13,7 +13,7 @@
 
 ### 👨‍💻 About Me
 
-I am a Computer Science student passionate about **Data Science**, **Machine Learning**, and **Numerical Computing**. My work focuses on building predictive models and interactive web applications to solve real-world problems.
+I am a Computer Science student passionate about **Data Science** and **Machine Learning**. My work focuses on building predictive models and interactive web applications to solve real-world problems.
 
 * 🔭 I’m currently working on **Advanced ML Algorithms & Deep Learning**.
 * 🌱 I’m currently learning **Neural Networks & Computer Architecture**.
