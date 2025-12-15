@@ -5,6 +5,8 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=shafin027&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   <br/>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=shafin027" alt="GitHub Streak" /></a>
+  
 </div>
 
 ---
