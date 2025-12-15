@@ -4,8 +4,13 @@
 
 <div align="center">
 
-  [![Visitor Count](https://visitcount.itsvg.in/api?id=shafin027&label=Profile%20Views&color=0&icon=5&pretty=true)](https://github.com/shafin027)
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+  <img src="https://komarev.com/ghpvc/?username=shafin027&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  
+  <br/>
+
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  </a>
 
 </div>
 
@@ -45,9 +50,6 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 | **[🧠 CSE427 ML Labs](https://github.com/shafin027/CSE427-Machine-Learning)** | Implementation of Decision Trees, AdaBoost, and Neural Networks. | `Python` `Jupyter` |
 | **[🧮 Numerical Methods](https://github.com/shafin027/CSE330_Numerical-Methods)** | Root finding, interpolation, and integration algorithms from scratch. | `NumPy` `Matplotlib` |
 
-
-### ⚡ Recent Activity
-
 ---
 
 ### 📊 GitHub Analytics
@@ -59,11 +61,22 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 
 <br/>
 
+### 🌐 Connect with Me
+
 <div align="center"> 
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="https://www.linkedin.com/in/shafin-mahamud/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.facebook.com/itstheshafin/">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://www.instagram.com/itstheshafin/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.youtube.com/@itstheshafin">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="mailto:shafin.mahamud@g.bracu.ac.bd">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
