@@ -40,19 +40,10 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 
 ---
 
-### 🚀 Featured Projects
+## Recent Activity
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[✈️ Flight Price Prediction](https://github.com/shafin027)** | A web app for the Bangladeshi market to predict flight costs. | `Python` `Streamlit` `Random Forest` |
-| **[🎓 Erasmus Predictor](https://github.com/shafin027)** | Helping applicants find suitable master's programs based on profile data. | `ML` `Classification` `Pandas` |
-| **[💰 Income Prediction](https://github.com/shafin027/Annual_Income_Prediction_Project)** | Classification model to predict if income >$50k using Census data. | `Scikit-Learn` `Seaborn` |
-| **[🧠 CSE427 ML Labs](https://github.com/shafin027/CSE427-Machine-Learning)** | Implementation of Decision Trees, AdaBoost, and Neural Networks. | `Python` `Jupyter` |
-| **[🧮 Numerical Methods](https://github.com/shafin027/CSE330_Numerical-Methods)** | Root finding, interpolation, and integration algorithms from scratch. | `NumPy` `Matplotlib` |
-
----
-
-### ⚡ Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
