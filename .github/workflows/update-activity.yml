@@ -1,21 +1,63 @@
-name: Update GitHub Activity
+name: Update Profile & Snake Game
 
 on:
+  # Run automatically every 24 hours
   schedule:
-    # Runs at 00:00 UTC every day
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" 
+  
+  # Allows you to run it manually from the Actions tab for testing
   workflow_dispatch:
+  
+  # Run on every push to the main branch
+  push:
+    branches:
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
+    permissions:
+      contents: write
     
     steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@master
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      # ------------------------------------------------------------------
+      # TASK 1: UPDATE RECENT ACTIVITY IN README
+      # ------------------------------------------------------------------
+      - name: Update Recent Activity
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: '⚡ Update README with recent activity'
           MAX_LINES: 5
+
+      # ------------------------------------------------------------------
+      # TASK 2: GENERATE SNAKE GAME ANIMATION
+      # ------------------------------------------------------------------
+      - name: Generate Snake Game
+        uses: Platane/snk@v3
+        with:
+          # Name of the user to generate the animation for
+          github_user_name: shafin027
+          
+          # List of output files to generate
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-ocean.svg?color_snake=orange&color_dots=#dadcdf94,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ------------------------------------------------------------------
+      # TASK 3: PUBLISH SNAKE GAME TO OUTPUT BRANCH
+      # ------------------------------------------------------------------
+      - name: Push Snake Game to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
