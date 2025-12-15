@@ -1,16 +1,69 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=280&section=header&text=Hello,%20I'm%20Shafin!&fontSize=70&animation=fadeIn&fontAlignY=38&desc=CS%20Undergrad%20%7C%20Machine%20Learning%20%7C%20Data%20Science&descAlignY=55&descSize=20" alt="Header" />
+</div>
 
-<!--
-**shafin027/shafin027** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+  [![Visitor Count](https://visitcount.itsvg.in/api?id=shafin027&label=Profile%20Views&color=0&icon=5&pretty=true)](https://github.com/shafin027)
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shafin027&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+---
+
+### 👨‍💻 About Me
+
+I am a Computer Science student passionate about **Data Science**, **Machine Learning**, and **Numerical Computing**. My work focuses on building predictive models and interactive web applications to solve real-world problems.
+
+* 🔭 I’m currently working on **Advanced ML Algorithms & Deep Learning**.
+* 🌱 I’m currently learning **Neural Networks & Computer Architecture**.
+* 🇧🇩 Based in **Dhaka, Bangladesh**.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+| **Languages** | **Data Science** | **Tools & Frameworks** |
+| :---: | :---: | :---: |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) |
+| ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) | ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
+
+</div>
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[✈️ Flight Price Prediction](https://github.com/shafin027)** | A web app for the Bangladeshi market to predict flight costs. | `Python` `Streamlit` `Random Forest` |
+| **[🎓 Erasmus Predictor](https://github.com/shafin027)** | Helping applicants find suitable master's programs based on profile data. | `ML` `Classification` `Pandas` |
+| **[💰 Income Prediction](https://github.com/shafin027/Annual_Income_Prediction_Project)** | Classification model to predict if income >$50k using Census data. | `Scikit-Learn` `Seaborn` |
+| **[🧠 CSE427 ML Labs](https://github.com/shafin027/CSE427-Machine-Learning)** | Implementation of Decision Trees, AdaBoost, and Neural Networks. | `Python` `Jupyter` |
+| **[🧮 Numerical Methods](https://github.com/shafin027/CSE330_Numerical-Methods)** | Root finding, interpolation, and integration algorithms from scratch. | `NumPy` `Matplotlib` |
+
+
+### ⚡ Recent Activity
+
+---
+
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shafin027&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin027&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="languages" />
+</div>
+
+<br/>
+
+<div align="center"> 
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
