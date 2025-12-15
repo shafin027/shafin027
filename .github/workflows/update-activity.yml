@@ -1,14 +1,10 @@
 name: Update Profile & Snake Game
 
 on:
-  # Run automatically every 24 hours
   schedule:
-    - cron: "0 0 * * *" 
-  
-  # Allows you to run it manually from the Actions tab for testing
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  
-  # Run on every push to the main branch
   push:
     branches:
     - main
@@ -23,9 +19,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      # ------------------------------------------------------------------
-      # TASK 1: UPDATE RECENT ACTIVITY IN README
-      # ------------------------------------------------------------------
       - name: Update Recent Activity
         uses: jamesgeorge007/github-activity-readme@master
         env:
@@ -34,16 +27,10 @@ jobs:
           COMMIT_MSG: '⚡ Update README with recent activity'
           MAX_LINES: 5
 
-      # ------------------------------------------------------------------
-      # TASK 2: GENERATE SNAKE GAME ANIMATION
-      # ------------------------------------------------------------------
       - name: Generate Snake Game
         uses: Platane/snk@v3
         with:
-          # Name of the user to generate the animation for
           github_user_name: shafin027
-          
-          # List of output files to generate
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -51,10 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ------------------------------------------------------------------
-      # TASK 3: PUBLISH SNAKE GAME TO OUTPUT BRANCH
-      # ------------------------------------------------------------------
-      - name: Push Snake Game to Output Branch
+      - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
