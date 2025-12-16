@@ -54,7 +54,15 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 </div>
 
 ---
+### 📈 **Coding Statistics**
 
+</div>
+
+<p align="center">
+<a href="https://leetcode.com/user9575st/">
+    <img height="220em" src="https://leetcard.jacoblin.cool/shafin_11027?theme=dark&font=ABeeZee&ext=heatmap" />
+</a>
+  
 ### 📊 GitHub Analytics
 
 <div align="center">
