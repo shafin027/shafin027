@@ -8,7 +8,7 @@
   
   <br/>
 
-  <a href="https://git.io/streak-stats">
+  <a href="https://github-readme-streak-stats-beige-five.vercel.app/?user=shafin027">
       <img src="https://github-readme-streak-stats-beige-five.vercel.app/?user=shafin027&theme=tokyonight" alt="GitHub Streak" />
   </a>
 </div>
