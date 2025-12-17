@@ -24,8 +24,7 @@ jobs:
         with:
           COMMIT_MSG: "⚡ Update README activity"
           MAX_LINES: 5
-          README_FILE: README.md
-
+          # Removed "README_FILE" to fix the warning
 
       # --- GENERATE SNAKE ---
       - name: Generate Snake Animation
