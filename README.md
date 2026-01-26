@@ -45,7 +45,6 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
   <img src="https://github-readme-stats.vercel.app/api?username=shafin027&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin027&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
----
 
 ### 🐍 My Contributions
 
