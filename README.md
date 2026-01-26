@@ -19,8 +19,8 @@
 
 I am a Computer Science student passionate about **Data Science** and **Machine Learning**. My work focuses on building predictive models and interactive web applications to solve real-world problems.
 
-* 🔭 I’m currently working on **Advanced ML Algorithms & Deep Learning**.
-* 🌱 I’m currently learning **Neural Networks & Computer Architecture**.
+* 🔭 I'm currently working on **Advanced ML Algorithms & Deep Learning**.
+* 🌱 I'm currently learning **Neural Networks & Computer Architecture**.
 * 🇧🇩 Based in **Dhaka, Bangladesh**.
 
 ---
@@ -39,8 +39,12 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 
 ---
 
-## Recent Activity
+## 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shafin027&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin027&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
 ---
 
 ### 🐍 My Contributions
