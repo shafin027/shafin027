@@ -42,8 +42,8 @@ I am a Computer Science student passionate about **Data Science** and **Machine 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shafin027&show_icons=true&theme=tokyonight&cache_seconds=1800" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin027&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=shafin027&show_icons=true&theme=tokyonight&cache_seconds=86400" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafin027&layout=compact&theme=tokyonight&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 ### 🐍 My Contributions
